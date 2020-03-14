@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en-US"> 
+    <head>
+        <title>National Hurricane Center</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+        <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="css/reset.css">
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+    </head>
+    <body>
+        <header>
+            <img src="images/header-noaa-logo.png" alt="noaa-logo">
+            <img src="images/header-nws-logo.png" alt="national-weather-service-logo">
+            <h1 id="title">National Hurricane Center</h1>
+            <div id="searchbar">
+                <i class="fa fa-search" aria-hidden="true"></i>
+                <input type="text" placeholder="Search here" size="30">
+            </div>
+        </header>
+        <nav>
+            <ul id="menu">
+                <li><a href="/news.html">News</a></li>
+                <li><a href="/stormData.html">Storm Data</a></li>
+                <li><a href="/index.html">Radar</a></li>
+                <li><a href="/education.html">Education</a></li>
+                <li><a href="/archives.html">Archives</a></li>
+            </ul>
+        </nav>
+        <main>
+            <ul class="tabs">
+                <li>
+                    <input type="radio" name="tabs" id="tab1" checked />
+                    <label for="tab1" 
+                            role="tab" 
+                            aria-selected="true" 
+                            aria-controls="panel1" 
+                            tabindex="0">Central Pacific</label>
+                    <div id="tab-content1" 
+                            class="tab-content" 
+                            role="tabpanel" 
+                            aria-labelledby="description" 
+                            aria-hidden="false">
+                            <img id="bannerImg" src="images/central-pacific.png" alt="atlantic-radar">
+                    </div>
+                </li>
+                <li>
+                    <input type="radio" name="tabs" id="tab2" />
+                    <label for="tab2"
+                            role="tab" 
+                            aria-selected="false" 
+                            aria-controls="panel2" 
+                            tabindex="0">Pacific</label>
+                    <div id="tab-content2" 
+                            class="tab-content"
+                            role="tabpanel" 
+                            aria-labelledby="specification" 
+                            aria-hidden="true">
+                            <img id="bannerImg" src="images/pacific-radar.png" alt="pacific-radar">
+                    </div>
+                </li>
+                <li>
+                    <input type="radio" name="tabs" id="tab3" />
+                    <label for="tab3"
+                            role="tab" 
+                            aria-selected="false" 
+                            aria-controls="panel3" 
+                            tabindex="0">Atlantic</label>
+                    <div id="tab-content3" 
+                            class="tab-content"
+                            role="tabpanel" 
+                            aria-labelledby="specification" 
+                            aria-hidden="true">
+                            <img id="bannerImg" src="images/eastern-radar.png" alt="pacific-radar">
+                    </div>
+                </li>
+            </ul>
+            <br>
+            <h2 id="updates">Latest Updates</h2>
+            <div id="articles-box">
+                <article id="article2" class="oddarticle">
+                    <h2>Hurricane Path Update</h2>
+                    <img src="images/news-1.jpeg" alt="News image 2">
+                    <p class="articleText1">The storm is barreling toward the coast of Florida now.</p>
+                </article>
+                <article id="article2" class="oddarticle">
+                    <h2>Devastation on the Coast</h2>
+                    <img src="images/news-2.jpeg" alt="News image 2">
+                    <p class="articleText1">Thousands without power in Puerto Rico. Storm Surge rises.</p>
+                </article>
+                <article id="article2" class="oddarticle">
+                    <h2>Record Breaking Winds, Over 200mph</h2>
+                    <img src="images/news-3.jpeg" alt="News image 3">
+                    <p class="articleText1">Winds speeds have increased by 80mph hour off the coast.</p>
+                </article>
+            </div>
+        </main>
+        <footer>
+            <ul class="left-side">
+                <li><a href="https://twitter.com/?lang=en"><img src="images/social/twitter-light.png" alt="Twitter Icon"></a></li>
+                <li><a href="https://www.facebook.com/"><img src="images/social/facebook-light.png" alt="Facebook Icon"></a></li>
+                <li><a href="https://www.linkedin.com/"><img src="images/social/linkedin-light.png" alt="Linkedin Icon"></a></li>
+            </ul>
+            <ul class="right-side">
+                <li><p>National Hurricane Center &copy; 2020</p></li>
+            </ul>
+        </footer>        
+    </body>
+</html>			
+
+
+
+
+
