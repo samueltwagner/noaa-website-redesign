@@ -1,0 +1,19 @@
+{
+  "name": "noaa-website-redesign",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samueltwagner/noaa-website-redesign.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samueltwagner/noaa-website-redesign/issues"
+  },
+  "homepage": "https://github.com/samueltwagner/noaa-website-redesign#readme"
+}
