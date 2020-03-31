@@ -194,6 +194,7 @@ article img {
 #articles-box{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     margin-top: 600px;
 }
 
